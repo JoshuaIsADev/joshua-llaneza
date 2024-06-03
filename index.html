@@ -2,92 +2,116 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Frontend Developer portfolio of Joshua Llaneza"
+    />
+    <meta
+      name="keywords"
+      content="Joshua Llaneza, frontend developer, webdev, portfolio"
+    />
+    <meta name="author" content="Joshua Llaneza" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./styles.css" />
 
-    <title>Joshua Llaneza - Frontend Developer</title>
+    <title>Joshua Llaneza / Frontend Developer</title>
   </head>
   <body>
     <header>
-      <h1>Joshua Llaneza / Frontend Developer</h1>
-      <nav>
-        <ul class="header-nav">
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="https://github.com/JoshuaIsADev/">Github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/joshuallaneza/">LinkedIn</a>
-          </li>
-          <li>
-            <a href="mailto:joshuaisadev@gmail.com">Email</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header-container">
+        <h1 class="font-m">Joshua Llaneza / Frontend Developer</h1>
+        <nav>
+          <ul class="header-nav">
+            <li>
+              <a href="#top">About</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="https://github.com/JoshuaIsADev/">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joshuallaneza/">LinkedIn</a>
+            </li>
+            <li>
+              <a href="mailto:joshuaisadev@gmail.com">Email</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <aside id="skills">
-        <h1>Frontend technical skills</h1>
-        <h2>Frontend development</h2>
-        <ul class="vertical-ul">
-          <li>React</li>
-          <li>Javascript</li>
-          <li>CSS</li>
-          <li>HTML</li>
-          <li>Git</li>
-        </ul>
-        <h2>Frontend design</h2>
-        <ul class="skills-ul">
-          <li>Figma</li>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-        </ul>
-        <h1>Other technical skills</h1>
-        <h2>Landscape architecture</h2>
-        <ul class="skills-ul">
-          <li>AutoCad</li>
-          <li>Rhino3d</li>
-          <li>3dsMax</li>
-          <li>Vray</li>
-          <li>Lumion</li>
-          <li>Sketchup</li>
-          <li>Indesign</li>
-          <li>Office</li>
-        </ul>
-        <h2>Landscape architecture</h2>
-        <ul class="skills-ul">
-          <li>AutoCad</li>
-          <li>Rhino3d</li>
-          <li>3dsMax</li>
-        </ul>
-        <h2>Photography/film</h2>
-        <ul class="skills-ul">
-          <li>Lightroom</li>
-          <li>Premiere</li>
-          <li>After Effects</li>
-        </ul>
+        <div class="skills-wrapper">
+          <h1 class="font-m">Frontend technical skills</h1>
+          <h2 class="font-xs">Frontend development</h2>
+          <ul class="vertical-ul">
+            <li>React</li>
+            <li>Javascript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Git</li>
+          </ul>
+          <h2 class="font-xs">Frontend design</h2>
+          <ul class="skills-ul">
+            <li>Figma</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+          </ul>
+        </div>
+        <div class="skills-wrapper">
+          <h1 class="font-m">Other technical skills</h1>
+          <h2 class="font-xs">Landscape architecture</h2>
+          <ul class="skills-ul">
+            <li>AutoCad</li>
+            <li>Rhino3d</li>
+            <li>3dsMax</li>
+            <li>Vray</li>
+            <li>Lumion</li>
+            <li>Sketchup</li>
+            <li>Indesign</li>
+            <li>Office</li>
+          </ul>
+          <h2 class="font-xs">Photography/film</h2>
+          <ul class="skills-ul">
+            <li>Lightroom</li>
+            <li>Premiere</li>
+            <li>After Effects</li>
+          </ul>
+        </div>
       </aside>
       <section id="about">
-        <h1>About me</h1>
-        <p class="font-l">
-          I’m a frontend developer with a background in landscape architecture &
-          design. From large urban landscapes to now the digital realm, I enjoy
-          solving problems through design & tech.
-        </p>
+        <h1 class="font-m">About me</h1>
+        <div class="about-wrapper">
+          <p class="font-l">
+            I’m a frontend developer with a background in landscape architecture
+            & design. From large urban landscapes to now the digital realm, I
+            enjoy solving problems through design & tech. When I'm not in front
+            of a computer, I'm an international city explorer and photographer.
+          </p>
+        </div>
       </section>
       <section id="projects">
-        <h1>Projects</h1>
+        <h1 class="font-m">Projects</h1>
         <div class="projects-container">
           <!-- projects inserted here -->
         </div>
       </section>
     </main>
+    <footer>
+      <p class="font-xxs">
+        Website and projects - copyright © Joshua Llaneza 2024. All rights
+        reserved.
+      </p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
