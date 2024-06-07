@@ -94,7 +94,7 @@ header ul {
 main {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
-  grid-gap: 5rem;
+  gap: 5rem;
   max-width: 2200px;
   padding: 10rem 5rem 6rem;
   margin: 0 auto;
@@ -151,7 +151,7 @@ footer {
 .project-wrapper {
   display: grid;
   grid-template-columns: 1.75fr 1fr;
-  grid-gap: 2rem;
+  gap: 2rem;
   padding-bottom: 8rem;
 }
 
@@ -177,7 +177,7 @@ footer {
   grid-column: 1 / span 1;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-gap: 2rem;
+  gap: 2rem;
 }
 
 .project-aside {
@@ -210,7 +210,7 @@ footer {
 
   main {
     grid-template-columns: 1fr 3fr;
-    grid-gap: 3rem;
+    gap: 3rem;
     padding: 10rem 2rem 6rem;
   }
 
@@ -221,13 +221,21 @@ footer {
 
 @media (max-width: 1000px) {
   * {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   main {
     grid-template-columns: 1fr 4fr;
-    grid-gap: 3rem;
-    padding: 10rem 2rem 6rem;
+    gap: 3rem;
+    padding: 8rem 2rem 6rem;
+  }
+
+  .font-m {
+    padding: 1rem 0;
+  }
+
+  .header-container {
+    padding: 0 0rem;
   }
 
   .about-container {
@@ -245,7 +253,11 @@ footer {
     grid-row: 5 / span 1;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 2rem;
+    gap: 2rem;
+  }
+  .links-container,
+  .client-container {
+    min-width: 10rem;
   }
 }
 
@@ -256,7 +268,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    padding: 0 2rem;
+    padding: 0 2rem 1rem;
   }
 
   .header-nav {
@@ -273,11 +285,19 @@ footer {
     grid-row: 2 / span 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    gap: 2rem;
   }
 
   #projects {
     grid-column: 1 / span 2;
     grid-row: 3 / span 1;
+  }
+
+  .project-wrapper {
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    gap: 2rem;
+    row-gap: 1rem;
+    padding-bottom: 8rem;
   }
 }

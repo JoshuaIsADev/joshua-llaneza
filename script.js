@@ -82,7 +82,7 @@ const projects = [
       'React query',
       'React hook forms',
       'React router',
-      'Supabase(RESTful API)',
+      'Supabase(RESTful)',
       'High accessibility score',
       'Figma',
     ],
@@ -121,7 +121,7 @@ const projects = [
       'React hook forms',
       'React router',
       'Context Api',
-      'Supabase(RESTful API)',
+      'Supabase(RESTful)',
       'Figma',
     ],
     client:
