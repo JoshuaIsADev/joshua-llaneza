@@ -7,7 +7,7 @@ const projects = [
     year: '2023',
     image: './content/img/screenshot_themet.png',
     paragraphs: [
-      'As an art enthusiast, I wanted my first vanilla javascript project to use the MET Museum API to display some of their art on the web. This app fetched a list of artwork then fetched more information about the art such as image and title. Users can enlarge the art to show more detail, and they can hide information. This app will detect if they are on mobile to show small size images for faster load times.',
+      "As an art enthusiast, I wanted my first vanilla JavaScript project to showcase the MET Museum's European paintings collection by using their API to display some of their art on the web. This app fetches a list of artwork and then fetches to get the details and image. Users can enlarge the images to view more details and have the option to hide the information. The app displays high quality images if the user is on desktop but fetch smaller images on mobile for faster load times.",
     ],
     githubLink: 'https://github.com/JoshuaIsADev/The-MET-v3',
     liveLink: 'https://the-met-gallery.netlify.app/',
@@ -39,7 +39,7 @@ const projects = [
     year: '2023',
     image: './content/img/screenshot_slide01.jpg',
     paragraphs: [
-      'One of my friends had asked me about financial budgeting basics. Rather than just tell them about it, I built a simple to use javascript app! This is a mobile-first app where the user inputs their salary, and it will recommend how much they should spend on items such as housing, food, transportation, etc. The user can also slide the sliders to adjust the values, add, and delete fields to their liking.',
+      'One of my friends asked me about the basics of financial budgeting. Instead of simply explaining it, I decided to build a user-friendly JavaScript app! This mobile-first app allows users to input their salary and receive recommendations on how much to spend on various categories such as housing, food, and transportation. Users can also adjust the values using sliders, and add or delete fields according to their preferences.',
     ],
     githubLink: 'https://github.com/JoshuaIsADev/Slide',
     liveLink: 'http://slide-budget.netlify.app',
@@ -63,8 +63,9 @@ const projects = [
     year: '2024',
     image: './content/img/screenshot_ml.png',
     paragraphs: [
-      'This was my first React project, which I built for a published author. Since she occasionally updates her bio and literary works, I decided to build her a custom content manager in addition to her landing page. The challenge was then to allow her to sign in, create, update, and delete her bio, photo, and literary works.',
-      'She also requested that her site be accessible so I tested it for accessibility. It has a score of 100 from Google LightHouse. Her website is currently live to show her fans, prospective editors and publishers.',
+      'This was my first React project, which I built for a published author. Since she occasionally updates her bio and literary works, I decided to build a custom content manager in addition to her landing page. The challenge was to enable her to sign in, create, update, and delete her bio, photo, and literary works.',
+
+      'She also requested that her site be accessible, so I tested it extensively for accessibility. It achieved a perfect score of 100 from Google Lighthouse and was manually tested with Microsoft Narrator. The website is now live, allowing her to share it with her fans, prospective editors, and publishers.',
     ],
     githubLink: 'https://github.com/JoshuaIsADev/Maika-Llaneza-v2',
     liveLink: 'http://maikallaneza.com',
@@ -101,8 +102,9 @@ const projects = [
     year: '2024',
     image: './content/img/screenshot_magis.png',
     paragraphs: [
-      'As a design enthusiast, I was interested to create a digital experience that reflects this company’s artistic aesthetics. I looked at their current website (which is made for industry professionals) and wanted to create a mock consumer website with ecommerce features such as selecting colors, adding, editing, deleting items in a shopping cart, and signing in/out checking previous orders.',
-      'I further challenged myself by creating a content management app, where the business can sign in/out, then add, edit, and delete products, images, and variants of those products.',
+      'As a design enthusiast, I was inspired to create a digital experience that reflects the artistic aesthetics of this company. After reviewing their current website, which caters to industry professionals, I decided to design a mock consumer website. This new site features e-commerce functionalities such as selecting colors, adding, editing, and deleting items in a shopping cart, as well as signing in and out to check previous orders.',
+
+      'To further challenge myself, I developed a content management application. This allows the business to sign in and out, and provides capabilities to add, edit, and delete products, images, and product variants.',
     ],
     githubLink: 'https://github.com/JoshuaIsADev/magis',
     liveLink: 'https://magis-portfolio-project.netlify.app/',
@@ -125,7 +127,7 @@ const projects = [
       'Figma',
     ],
     client:
-      'Disclaimer: The company is real, but this is a fictional project for portfolio only. It is NOT a clone.',
+      'Disclaimer: The company is real, but this is a mock project for portfolio only. It is also NOT a clone.',
     featuresUser: [
       'Filter/sort products',
       'Select variants',
