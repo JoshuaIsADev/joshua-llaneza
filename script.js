@@ -7,7 +7,7 @@ const projects = [
     year: '2023',
     image: './content/img/screenshot_themet.png',
     paragraphs: [
-      "As an art enthusiast, I wanted my first vanilla JavaScript project to showcase the MET Museum's European paintings collection by using their API to display some of their art on the web. This app fetches a list of artwork and then fetches to get the details and image. Users can enlarge the images to view more details and have the option to hide the information. The app displays high quality images if the user is on desktop but fetch smaller images on mobile for faster load times.",
+      "As an art enthusiast, I wanted my first vanilla JavaScript project to showcase the MET Museum's European paintings collection by using their API to display some of their art on the web. This app fetches a list of artwork and then fetches to get the details and image. Users can enlarge the images to view more details and have the option to hide the information. The app displays high quality images if the user is on desktop but will fetch smaller images on mobile for faster load times.",
     ],
     githubLink: 'https://github.com/JoshuaIsADev/The-MET-v3',
     liveLink: 'https://the-met-gallery.netlify.app/',
@@ -65,7 +65,7 @@ const projects = [
     paragraphs: [
       'This was my first React project, which I built for a published author. Since she occasionally updates her bio and literary works, I decided to build a custom content manager in addition to her landing page. The challenge was to enable her to sign in, create, update, and delete her bio, photo, and literary works.',
 
-      'She also requested that her site be accessible, so I tested it extensively for accessibility. It achieved a perfect score of 100 from Google Lighthouse and was manually tested with Microsoft Narrator. The website is now live, allowing her to share it with her fans, prospective editors, and publishers.',
+      'She also requested that her site be accessible, so I tested it extensively for accessibility. It achieved a perfect score of 100 from Google Lighthouse and was manually tested with Microsoft Narrator. The website has increased her online presence by allowing her to share it with her fans, prospective editors, and publishers.',
     ],
     githubLink: 'https://github.com/JoshuaIsADev/Maika-Llaneza-v2',
     liveLink: 'http://maikallaneza.com',
