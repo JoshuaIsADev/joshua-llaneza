@@ -59,7 +59,7 @@ const projects = [
   },
 
   {
-    name: 'Maikallaneza.com',
+    name: 'Maika Llaneza',
     year: '2024',
     image: './content/img/screenshot_ml.png',
     paragraphs: [
@@ -156,8 +156,12 @@ const displayProjects = function (projects) {
     // console.log(proj);
     const html = `
       <article class="project-wrapper">
-        <h2 class="font-l">${proj.name}</h2>
-        <p class="font-s">${proj.year}</p>
+        <div class="heading-container">
+          <h2 class="font-l">${proj.name}</h2>
+        </div>
+        <div class="heading-container">
+          <p class="font-xs">${proj.year}</p>
+        </div>
         <img alt="${proj.name} project screenshot" src=${
       proj.image
     } class="project-img"/>
