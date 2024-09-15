@@ -230,6 +230,22 @@ footer {
   width: fit-content;
   padding: 0.25rem;
 }
+
+@media (max-width: 650px) {
+  .font-l {
+    font-size: 2em;
+    line-height: 2rem;
+    color: rgb(0, 0, 0);
+  }
+}
+@media (max-width: 412px) {
+  .font-l {
+    font-size: 1.5em;
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0);
+  }
+}
+
 /*
 
 @media (max-width: 1600px) {
@@ -347,3 +363,4 @@ footer {
     align-items: center;
   }
 }
+*/
